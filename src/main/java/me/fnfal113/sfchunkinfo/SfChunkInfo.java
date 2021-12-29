@@ -1,9 +1,9 @@
 package me.fnfal113.sfchunkinfo;
 
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
+//import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
 import me.fnfal113.sfchunkinfo.commands.ScanChunk;
-import org.bstats.bukkit.Metrics;
+//import org.bstats.bukkit.Metrics;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.Objects;
@@ -15,7 +15,7 @@ public final class SfChunkInfo extends JavaPlugin implements SlimefunAddon {
     @Override
     public void onEnable() {
         setInstance(this);
-        new Metrics(this, 13713);
+        //new Metrics(this, 13713);
 
         getLogger().info("******************************************************");
         getLogger().info("*         SfChunkInfo - Created by FN_FAL113         *");
@@ -25,12 +25,12 @@ public final class SfChunkInfo extends JavaPlugin implements SlimefunAddon {
 
         Objects.requireNonNull(getCommand("sfchunkinfo")).setExecutor(new ScanChunk());
 
-        getConfig().options().copyDefaults();
-        saveDefaultConfig();
+        //getConfig().options().copyDefaults();
+        //saveDefaultConfig();
 
-        if (getConfig().getBoolean("auto-update", true) && getDescription().getVersion().startsWith("DEV - ")) {
+        /*if (getConfig().getBoolean("auto-update", true) && getDescription().getVersion().startsWith("DEV - ")) {
             new GitHubBuildsUpdater(this, getFile(), "FN-FAL113/SfChunkInfo/main").start();
-        }
+        }*/
 
     }
 
@@ -41,7 +41,7 @@ public final class SfChunkInfo extends JavaPlugin implements SlimefunAddon {
 
     @Override
     public String getBugTrackerURL() {
-        return "https://github.com/FN-FAL113/SfChunkInfo/issues";
+        return "https://github.com/SlimeTraditionalTranslation/SfChunkInfo/issues";
     }
 
     private static void setInstance(SfChunkInfo ins) {

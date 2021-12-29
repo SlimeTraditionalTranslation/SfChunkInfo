@@ -36,14 +36,14 @@ public class ScanChunk implements TabExecutor {
                     getAmount(chunk, player);
 
                 } else {
-                    player.sendMessage("You don't have permission to use this command (perm mode: sfchunkinfo.scan)");
+                    player.sendMessage("你沒有權限使用這個指令 (權限節點: sfchunkinfo.scan)");
                 }
             } else {
                 if (player.hasPermission("sfchunkinfo.scan.others")) {
                     Player target = Bukkit.getPlayer(args[0]);
 
                     if(target == null){
-                        player.sendMessage("Player cannot be null or offline");
+                        player.sendMessage("玩家不能為空或不在線上");
                         return true;
                     }
 
@@ -52,7 +52,7 @@ public class ScanChunk implements TabExecutor {
                     getAmountOthers(chunk, target, player);
 
                 } else {
-                    player.sendMessage("You don't have permission to use this command (perm mode: sfchunkinfo.scan.others)");
+                    player.sendMessage("你沒有權限使用這個指令 (權限節點: sfchunkinfo.scan.others)");
                 }
             }
         }
@@ -66,7 +66,7 @@ public class ScanChunk implements TabExecutor {
                 player.getLocation(),
                 Interaction.PLACE_BLOCK)
         ) {
-            player.sendMessage("You don't have the permission to scan this chunk (Grief Protected), ask for permission or override using the protection plugin command");
+            player.sendMessage("你沒有權限掃描此區塊 (保護區插件), 請求權限或使用保護區插件指令來覆蓋");
             return;
         }
 
@@ -85,10 +85,10 @@ public class ScanChunk implements TabExecutor {
             }
         }
 
-        player.sendMessage(ChatColor.GOLD + "# of Slimefun items on this chunk:", "");
+        player.sendMessage(ChatColor.GOLD + "# 這個區塊上的黏液科技物品資訊:", "");
 
         if (AMOUNT.isEmpty()) {
-            player.sendMessage(ChatColor.YELLOW + "No Slimefun items on this chunk");
+            player.sendMessage(ChatColor.YELLOW + "沒有黏液科技物品在這個區塊");
             return;
         }
 
@@ -121,10 +121,10 @@ public class ScanChunk implements TabExecutor {
             }
         }
 
-        sender.sendMessage(ChatColor.GOLD + "# of Slimefun items on " + ChatColor.WHITE + player.getName() + ChatColor.GOLD + " chunk:", "");
+        sender.sendMessage(ChatColor.GOLD + "# 在 " + ChatColor.WHITE + player.getName() + ChatColor.GOLD + " 區塊上的黏液科技物品資訊:", "");
 
         if (AMOUNT.isEmpty()) {
-            sender.sendMessage(ChatColor.YELLOW + "No Slimefun items on " + ChatColor.WHITE + player.getName() + ChatColor.GOLD + " chunk");
+            sender.sendMessage(ChatColor.YELLOW + "沒有黏液科技物品在 " + ChatColor.WHITE + player.getName() + ChatColor.GOLD + " 的區塊");
             return;
         }
 
@@ -142,19 +142,19 @@ public class ScanChunk implements TabExecutor {
     }
 
     public TextComponent hoverInfo(Map<String, String> info){
-        TextComponent infoAddon = new TextComponent( "\nHover for some info" );
+        TextComponent infoAddon = new TextComponent( "\n懸停來獲取一些訊息" );
         infoAddon.setColor(net.md_5.bungee.api.ChatColor.WHITE);
         infoAddon.setItalic(true);
-        infoAddon.setHoverEvent(new HoverEvent( HoverEvent.Action.SHOW_TEXT, new Text(info.toString().replace("{","").replace("}","").replace(", ", "\n").replace("=", ChatColor.WHITE + " | from: "))));
+        infoAddon.setHoverEvent(new HoverEvent( HoverEvent.Action.SHOW_TEXT, new Text(info.toString().replace("{","").replace("}","").replace(", ", "\n").replace("=", ChatColor.WHITE + " | 來自: "))));
 
         return infoAddon;
     }
 
     public TextComponent hoverInfoTimings(Map<String, Double> timings){
-        TextComponent infoChunk = new TextComponent( "Hover for block total timings" );
+        TextComponent infoChunk = new TextComponent( "懸停來獲取方塊的總 timings" );
         infoChunk.setColor(net.md_5.bungee.api.ChatColor.WHITE);
         infoChunk.setItalic(true);
-        infoChunk.setHoverEvent(new HoverEvent( HoverEvent.Action.SHOW_TEXT, new Text(ChatColor.GOLD + "Total Timings" + "\n\n" + timings.toString().replace("{","").replace("}","").replace(", ", " ms\n").replace("=", ChatColor.WHITE + ": ").concat(ChatColor.WHITE + " ms"))));
+        infoChunk.setHoverEvent(new HoverEvent( HoverEvent.Action.SHOW_TEXT, new Text(ChatColor.GOLD + "總 Timings" + "\n\n" + timings.toString().replace("{","").replace("}","").replace(", ", " ms\n").replace("=", ChatColor.WHITE + ": ").concat(ChatColor.WHITE + " ms"))));
 
         return infoChunk;
     }

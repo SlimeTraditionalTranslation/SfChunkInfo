@@ -1,32 +1,37 @@
- SfChunkInfo
-A simple handy scanner for Slimefun blocks per chunk
+# 黏液區塊資訊
+一個簡單方便的掃描器, 用於掃描黏液科技在一格區塊中.
 
-Supports Slimefun addons and grief protection plugins (Towny, Grief Prevention, etc)
+支持黏液科技的附加與保護插件 (Towny, Grief Prevention, 等等)
 
-## Usage
-```/sfchunkinfo``` - the command to scan your chunks for slimefun blocks
+> 此為**非官方**版本, 請勿在該作者問題追蹤內回報! <br>
+> [原作連結](https://github.com/FN-FAL113/SfChunkInfo) | [非官方Discord](https://discord.gg/GF4CwjFXT9)
 
-```Permission node: sfchunkinfo.scan```
+## 用法
+```/sfchunkinfo``` - 指令用於掃描你所在的區塊有的黏液科技方塊
 
-```/sfchunkinfo <targetPlayer>``` - command for scanning online player's chunk **(can scan grief protected claims!)**
+```權限節點: sfchunkinfo.scan```
 
-```Permission node: sfchunkinfo.scan.others```
+```/sfchunkinfo <targetPlayer>``` - 用於掃描其他線上玩家所在的區塊 **(可以掃描保護區內的區塊!)**
 
-## Download official build (with auto updates)
-[![Build Status](https://thebusybiscuit.github.io/builds/FN-FAL113/SfChunkInfo/main/badge.svg)](https://thebusybiscuit.github.io/builds/FN-FAL113/SfChunkInfo/main)
+```權限節點: sfchunkinfo.scan.others```
 
+## 下載
+| 非官方繁體中文版 | 官方英文版 |
+| -------- | -------- |
+| 點下方圖片下載 | 點下方圖片下載 |
+| [![Build Status](https://xMikux.github.io/builds/SlimeTraditionalTranslation/SfChunkInfo/main/badge.svg)](https://xMikux.github.io/builds/SlimeTraditionalTranslation/SfChunkInfo/main) | [![Build Status](https://thebusybiscuit.github.io/builds/FN-FAL113/SfChunkInfo/main/badge.svg)](https://thebusybiscuit.github.io/builds/FN-FAL113/SfChunkInfo/main) |
 
-## Scanning a location chunk
+## 掃描一個位置的區塊
 ![2021-12-28_13 18 33](https://user-images.githubusercontent.com/88238718/147554820-b1c1ec93-0e7a-4657-99d9-d091a4593b5d.png)
 ![2021-12-28_13 18 21](https://user-images.githubusercontent.com/88238718/147554808-5879f6a6-0011-46fe-89d2-c35e2f070c49.png)
 
-## Scanning other's chunk
+## 掃描其他人的區塊
 ![2021-12-28_13 30 04](https://user-images.githubusercontent.com/88238718/147554814-c6c49d33-fec3-4850-a01a-1fb61d28b438.png)
 
-## Respects protected land claim 
+## 尊重有保護區的領地
 ![Screenshot 2021-12-26 101529](https://user-images.githubusercontent.com/88238718/147397288-5a8070bf-6b81-4e2d-abce-8a8c3e747172.png)
 
-### Slimefun and Addon community discord
+### Slimefun 和 Addon community discord
 <p>
   <a href="https://discord.gg/slimefun">
     <img src="https://discordapp.com/api/guilds/565557184348422174/widget.png?style=banner3" alt="Discord Invite"/>

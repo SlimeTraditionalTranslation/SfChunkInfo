@@ -3,7 +3,7 @@ version: ${project.version}
 main: me.fnfal113.sfchunkinfo.SfChunkInfo
 api-version: 1.14
 authors: [ FN_FAL113 ]
-description: Scan the amount of Slimefun blocks in a chunk
+description: 黏液科技附加 黏液區塊資訊 繁體翻譯版.
 depend: [Slimefun]
 commands:
   sfchunkinfo:
