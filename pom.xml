@@ -6,7 +6,7 @@
 
     <groupId>me.fnfal113</groupId>
     <artifactId>SfChunkInfo</artifactId>
-    <version>Efina 1.0</version>
+    <version>Efina 1.4</version>
     <packaging>jar</packaging>
 
     <name>SfChunkInfo</name>
