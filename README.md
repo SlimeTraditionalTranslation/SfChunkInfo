@@ -6,6 +6,8 @@
 > 此為**非官方**版本, 請勿在該作者問題追蹤內回報! <br>
 > [原作連結](https://github.com/FN-FAL113/SfChunkInfo) | [非官方Discord](https://discord.gg/GF4CwjFXT9)
 
+適用 1.14+ minecraft spigot/paper/forks 版本
+
 ## 用法
 ```/sfchunkinfo``` - 指令用於掃描你所在的區塊有的黏液科技方塊
 
