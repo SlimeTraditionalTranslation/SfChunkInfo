@@ -1,5 +1,6 @@
 package me.fnfal113.sfchunkinfo;
 
+import io.github.bakedlibs.dough.updater.GitHubBuildsUpdater;
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 //import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
 import me.fnfal113.sfchunkinfo.commands.ScanChunk;
@@ -26,12 +27,12 @@ public final class SfChunkInfo extends JavaPlugin implements SlimefunAddon {
 
         Objects.requireNonNull(getCommand("sfchunkinfo")).setExecutor(new ScanChunk());
 
-        //getConfig().options().copyDefaults();
-        //saveDefaultConfig();
+        getConfig().options().copyDefaults();
+        saveDefaultConfig();
 
-        /*if (getConfig().getBoolean("auto-update", true) && getDescription().getVersion().startsWith("DEV - ")) {
-            new GitHubBuildsUpdater(this, getFile(), "FN-FAL113/SfChunkInfo/main").start();
-        }*/
+        if (getConfig().getBoolean("auto-update", true) && getDescription().getVersion().startsWith("EFI - ")) {
+            new GitHubBuildsUpdater(this, getFile(), "SlimeTraditionalTranslation/SfChunkInfo/main").start();
+        }
 
     }
 
