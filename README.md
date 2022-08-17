@@ -24,14 +24,26 @@
 | [![Build Status](https://xMikux.github.io/builds/SlimeTraditionalTranslation/SfChunkInfo/main/badge.svg)](https://xMikux.github.io/builds/SlimeTraditionalTranslation/SfChunkInfo/main) | [![Build Status](https://thebusybiscuit.github.io/builds/FN-FAL113/SfChunkInfo/main/badge.svg)](https://thebusybiscuit.github.io/builds/FN-FAL113/SfChunkInfo/main) |
 
 ## 掃描一個位置的區塊
-![2021-12-28_13 18 33](https://user-images.githubusercontent.com/88238718/147554820-b1c1ec93-0e7a-4657-99d9-d091a4593b5d.png)
-![2021-12-28_13 18 21](https://user-images.githubusercontent.com/88238718/147554808-5879f6a6-0011-46fe-89d2-c35e2f070c49.png)
+<div align="center">
+  <div style="display: flex;">
+    <img src="https://user-images.githubusercontent.com/88238718/147554820-b1c1ec93-0e7a-4657-99d9-d091a4593b5d.png" height="350px" style="vertical-align: top;"></img>
+    <img src="https://user-images.githubusercontent.com/88238718/147554808-5879f6a6-0011-46fe-89d2-c35e2f070c49.png" height="350px" style="vertical-align: top;"></img>
+  </div>
+</div>
 
 ## 掃描其他人的區塊
-![2021-12-28_13 30 04](https://user-images.githubusercontent.com/88238718/147554814-c6c49d33-fec3-4850-a01a-1fb61d28b438.png)
+<div align="center">
+  <div style="display: flex;">
+    <img style="margin: center;" src="https://user-images.githubusercontent.com/88238718/147554814-c6c49d33-fec3-4850-a01a-1fb61d28b438.png" height="350px" style="vertical-align: top;"></img>
+  </div>
+</div>
 
 ## 尊重有保護區的領地
-![Screenshot 2021-12-26 101529](https://user-images.githubusercontent.com/88238718/147397288-5a8070bf-6b81-4e2d-abce-8a8c3e747172.png)
+<div align="center">
+  <div style="display: flex;">
+   <img style="margin: center;" src="https://user-images.githubusercontent.com/88238718/147397288-5a8070bf-6b81-4e2d-abce-8a8c3e747172.png" height="40px" style="vertical-align: top;"></img>
+  </div>
+</div>
 
 ### Slimefun 和 Addon community discord
 <p>
