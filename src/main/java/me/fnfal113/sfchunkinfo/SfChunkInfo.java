@@ -33,7 +33,6 @@ public final class SfChunkInfo extends JavaPlugin implements SlimefunAddon {
         if (getConfig().getBoolean("auto-update", true) && getDescription().getVersion().startsWith("EFI - ")) {
             new GitHubBuildsUpdater(this, getFile(), "SlimeTraditionalTranslation/SfChunkInfo/main").start();
         }
-
     }
 
     @Override

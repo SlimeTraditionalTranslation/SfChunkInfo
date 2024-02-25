@@ -21,7 +21,7 @@
 | 非官方繁體中文版 | 官方英文版 |
 | -------- | -------- |
 | 點下方圖片下載 | 點下方圖片下載 |
-| [![Build Status](https://xMikux.github.io/builds/SlimeTraditionalTranslation/SfChunkInfo/main/badge.svg)](https://xMikux.github.io/builds/SlimeTraditionalTranslation/SfChunkInfo/main) | [![Build Status](https://thebusybiscuit.github.io/builds/FN-FAL113/SfChunkInfo/main/badge.svg)](https://thebusybiscuit.github.io/builds/FN-FAL113/SfChunkInfo/main) |
+| [![Build Status](https://xMikux.github.io/builds/SlimeTraditionalTranslation/SfChunkInfo/main/badge.svg)](https://xMikux.github.io/builds/SlimeTraditionalTranslation/SfChunkInfo/main) | [![Build Status](https://thebusybiscuit.github.io/builds/FN-FAL113/SfChunkInfo/main/badge.svg)](https://blob.build/project/SfChunkInfo) |
 
 ## 掃描一個位置的區塊
 <div align="center">
@@ -54,3 +54,10 @@
     <img src="https://discordapp.com/api/guilds/809178621424041997/widget.png?style=banner3" alt="Discord Invite"/>
   </a>
 </p>
+
+## 💖 支持專案開發者
+我貢獻自己的努力與精神來免費開發這個專案。分享給其它《Minecraft》玩家、伺服主此專案，或給個星星是對我的巨大支持與讚賞表現！</br>
+或是用贊助按鈕。（因為目前帳號需求未達到，所以目前正在使用父母的 PayPal）<br/>
+<a href="https://www.paypal.com/paypalme/ameliaOrbeta" target=_blank>
+  <img src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" alt="Donate with PayPal" width="40%" />
+</a>
